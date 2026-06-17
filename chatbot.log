@@ -1,0 +1,20 @@
+2026-06-17 13:29:32,915 - QUESTION: what is company policy
+2026-06-17 13:29:35,336 - HTTP Request: POST http://localhost:6333/collections/company_docs/points/query "HTTP/1.1 200 OK"
+2026-06-17 13:31:01,489 - ERROR: name 'sources' is not defined
+2026-06-17 13:31:01,509 - ANSWER: An error occurred while processing your request.
+
+name 'sources' is not defined
+2026-06-17 13:44:03,490 - QUESTION: what is leave policy
+2026-06-17 13:44:03,828 - HTTP Request: POST http://localhost:6333/collections/company_docs/points/query "HTTP/1.1 200 OK"
+2026-06-17 13:44:58,146 - ANSWER: The leave policy states that employees are entitled to 15 vacation leave days and 10 sick leave days per year.
+2026-06-17 13:45:28,364 - QUESTION: pano kung nagleave na ko 1day VL ano mangyayare
+2026-06-17 13:45:28,683 - HTTP Request: POST http://localhost:6333/collections/company_docs/points/query "HTTP/1.1 200 OK"
+2026-06-17 13:46:12,684 - ANSWER: I could not find this information in the company documents.
+2026-06-17 14:08:30,462 - QUESTION: dapat mabawasan na yung Vacation leave ko ng isa diba so ilan nalang matitira
+2026-06-17 14:08:30,805 - HTTP Request: POST http://localhost:6333/collections/company_docs/points/query "HTTP/1.1 200 OK"
+2026-06-17 14:09:52,940 - ANSWER: The company policy states that employees are entitled to 15 vacation leave days per year. If you have already used 1 day, your remaining vacation leave would be **14 days**. 
+
+However, please note that the policy does not specify automatic reductions for partial days or specific scenarios. For precise calculations, consult your HR department or check your leave balance through the company’s internal system.
+2026-06-17 15:28:35,561 - QUESTION: pano mag file ng leave\
+2026-06-17 15:28:37,552 - HTTP Request: POST http://localhost:6333/collections/company_docs/points/query "HTTP/1.1 200 OK"
+2026-06-17 15:29:36,502 - ANSWER: I could not find this information in the company documents. For details on how to file for leave, please consult your HR department or check the company’s internal system for specific procedures.
